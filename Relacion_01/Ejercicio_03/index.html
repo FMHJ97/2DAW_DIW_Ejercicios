@@ -7,62 +7,77 @@
     <title>HTML5/CSS3 - Ejercicio 03</title>
 </head>
 <body>
-    <!--Cabecera-->
-    <header>
-        <h1>Currículum</h1>
-    </header>
+    <!--Contenedor de la barra de navegación-->
+    <div id="navContainer">
+        <nav>
+            <ul>
+                <li><a href="#sectionDP">Datos Personales</a></li>
+                <li><a href="#sectionFA">Formación Académica</a></li>
+                <li><a href="#sectionEP">Experiencia Profesional</a></li>
+                <li><a href="#sectionFC">Formación Complementaria</a></li>
+                <li><a href="#sectionOH">Otras habilidades</a></li>
+            </ul>
+        </nav>
+    </div>
     <!--Contenedor principal-->
-    <main>
-        <!--Datos Personales-->
-        <section>
-            <h2>Datos Personales</h2>
-            <div id="sectionDP">
-                <img src="./resources/foto_curriculum.png">
-                <div>
-                    <p>Nombre y apellidos: Francisco Manuel Hernández Jiménez</p>
-                    <p>Fecha de nacimiento: 05/01/1997</p>
-                    <p>Dirección: Calle Horno</p>
-                    <p>Localidad: Puente Genil</p>
-                    <p>Código Postal: 14500</p>
+    <div id="mainContainer">
+        <!--Cabecera-->
+        <header>
+            <h1>Currículum</h1>
+        </header>
+        <!--Contenedor principal-->
+        <main>
+            <!--Datos Personales-->
+            <section id="sectionDP">
+                <h2>Datos Personales</h2>
+                <div id="divDP">
+                    <img src="./resources/foto_curriculum.png">
+                    <div>
+                        <p>Nombre y apellidos: Francisco Manuel Hernández Jiménez</p>
+                        <p>Fecha de nacimiento: 05/01/1997</p>
+                        <p>Dirección: Calle Horno</p>
+                        <p>Localidad: Puente Genil</p>
+                        <p>Código Postal: 14500</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!--Formación Académica-->
-        <section>
-            <h2>Formación Académica</h2>
-            <ul>
-                <li>CFGS Desarrollo de Aplicaciones Web (<a target="_blank" href="https://blogsaverroes.juntadeandalucia.es/iesmarquesdecomares/">Centro</a>)</li>
-                <li>CFGS Sistemas de Telecomunicaciones e Informáticos (<a target="_blank" href="https://www.iesjuandelacierva.org/">Centro</a>)</li>
-                <li>Bachillerato (<a target="_blank" href="https://iesandresbojollo.es/">Centro</a>)</li>
-            </ul>
-        </section>
-        <!--Experiencia Profesional-->
-        <section>
-            <h2>Experiencia Profesional</h2>
-            <ul>
-                <li>Técnico informático (2019)</li>
-                <li>Panadero (2019 - 2024)</li>
-            </ul>
-        </section>
-        <!--Formación Complementaria-->
-        <section>
-            <h2>Formación Complementaria</h2>
-            <ul>
-                <li>Inglés (B2)</li>
-                <li>Certificado Cisco CCNA</li>
-                <li>Curso de Figma (OpenWebinars)</li>
-                <li>Curso de Prevención de Riesgos Laborales</li>
-            </ul>
-        </section>
-        <!--Otras habilidades-->
-        <section>
-            <h2>Otras habilidades</h2>
-            <ul>
-                <li>Trabajo en equipo</li>
-                <li>Capacidad de aprendizaje</li>
-                <li>Adaptabilidad</li>
-            </ul>
-        </section>
-    </main>
+            </section>
+            <!--Formación Académica-->
+            <section id="sectionFA">
+                <h2>Formación Académica</h2>
+                <ul>
+                    <li>CFGS Desarrollo de Aplicaciones Web (<a target="_blank" href="https://blogsaverroes.juntadeandalucia.es/iesmarquesdecomares/">Centro</a>)</li>
+                    <li>CFGS Sistemas de Telecomunicaciones e Informáticos (<a target="_blank" href="https://www.iesjuandelacierva.org/">Centro</a>)</li>
+                    <li>Bachillerato (<a target="_blank" href="https://iesandresbojollo.es/">Centro</a>)</li>
+                </ul>
+            </section>
+            <!--Experiencia Profesional-->
+            <section id="sectionEP">
+                <h2>Experiencia Profesional</h2>
+                <ul>
+                    <li>Técnico informático (2019)</li>
+                    <li>Panadero (2019 - 2024)</li>
+                </ul>
+            </section>
+            <!--Formación Complementaria-->
+            <section id="sectionFC">
+                <h2>Formación Complementaria</h2>
+                <ul>
+                    <li>Inglés (B2)</li>
+                    <li>Certificado Cisco CCNA</li>
+                    <li>Curso de Figma (OpenWebinars)</li>
+                    <li>Curso de Prevención de Riesgos Laborales</li>
+                </ul>
+            </section>
+            <!--Otras habilidades-->
+            <section id="sectionOH">
+                <h2>Otras habilidades</h2>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Capacidad de aprendizaje</li>
+                    <li>Adaptabilidad</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
