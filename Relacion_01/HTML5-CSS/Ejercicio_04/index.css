@@ -63,8 +63,8 @@ img {
 .row > div {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* horizontal */
-    align-items: center; /* vertical */
+    justify-content: center;
+    align-items: center;
     width: 200px;
     text-align: center;
     padding: 1em;

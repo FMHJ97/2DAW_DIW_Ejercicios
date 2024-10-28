@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    overflow: hidden;
+}
+#divBlock {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(0, 0%, 83%, 0.25);
+}
+#divCookies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: lightsteelblue;
+    padding: 1em;
+    border: 1px solid black;
+    height: 200px;
+}
+
+#divCookies p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#divCookies input {
+    padding: 1em;
+    font-weight: bold;
+    background-color: steelblue;
+    color: whitesmoke;
+}
+#divBlanco{
+    display:flex;
+    flex-grow: 1;
+}
+#accept:hover {
+    background-color: green;
+}
+#decline:hover {
+    background-color: crimson;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+img {
+    width: 100%;
+    padding: 2em;
+}

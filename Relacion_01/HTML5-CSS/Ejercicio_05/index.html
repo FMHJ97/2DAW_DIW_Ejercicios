@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 05</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="container">
+    <!--Div de bloqueo-->
+    <div id="divBlock">
+        <!--Div que "empuja" el divCookies-->
+        <div id="divBlanco">
+            &nbsp;
+        </div>
+        <!--Cartel de Cookies-->
+        <div id="divCookies">
+            <p>Cartel de aviso de cookies</p>
+            <div id="buttons">
+                <input type="button" id="accept" value="Aceptar cookies" onclick="hideCookies()">
+                <input type="button" id="decline" value="Rechazar cookies" onclick="hideCookies()">
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <h1>Soy un título</h1>
+        <p>Introduzca un texto: <input type="text"></p>
+        <img src="../Ejercicio_04/resources/planet_saturn.jpg">
+    </div>
+    <!--Script-->
+    <script>
+        // Función que oculta el div #divBlock.
+        function hideCookies() {
+            document.getElementById("divBlock").style.display = "none";
+            document.getElementById("container").style.overflow = "visible";
+        }
+    </script>
+</body>
+</html>
