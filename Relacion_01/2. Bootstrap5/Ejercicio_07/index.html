@@ -19,11 +19,12 @@
         <!-- h-100: Altura 100% -->
         <div class="row h-100">
             <!-- Columna 1 -->
-            <div class="col text-bg-primary border border-dark centeredText">Texto 1</div>
+            <div class="col-12 col-sm-4 text-bg-primary border border-dark centeredText">Texto 1</div>
             <!-- Columna 2 -->
-            <div class="col d-flex flex-column">
+            <div class="col-12 col-sm-8 d-flex flex-column">
                 <div class="row h-100">
-                    <div class="col d-flex flex-column">
+                    <!--Columna 2.1-->
+                    <div class="col-md-6 d-flex flex-column">
                         <!-- Fila 1 -->
                         <div class="row flex-grow-1"> <!-- flex-grow-1: Ocupa todo el espacio disponible -->
                             <div class="col text-bg-success border border-dark centeredText">Texto 2</div>
@@ -39,18 +40,15 @@
                             <div class="col text-bg-secondary border border-dark centeredText">Texto 9</div>
                         </div>
                     </div>
-                    <div class="col d-flex flex-column">
+                    <!-- Columna 2.2 -->
+                    <div class="col-md-6 d-flex flex-column">
                         <div class="row flex-grow-1">
-                            <div class="col text-bg-dark border border-dark centeredText">Texto 4</div>
+                            <div class="col-6 col-md-12 text-bg-dark border border-dark centeredText">Texto 4</div>
+                            <div class="col-6 col-md-12 text-bg-light border border-dark centeredText">Texto 6</div>
                         </div>
                         <div class="row flex-grow-1">
-                            <div class="col text-bg-light border border-dark centeredText">Texto 6</div>
-                        </div>
-                        <div class="row flex-grow-1">
-                            <div class="col text-bg-white border border-dark centeredText">Texto 7</div>
-                        </div>
-                        <div class="row flex-grow-1">
-                            <div class="col text-bg-primary border border-dark centeredText">Texto 10</div>
+                            <div class="col-6 col-md-12 text-bg-white border border-dark centeredText">Texto 7</div>
+                            <div class="col-6 col-md-12 text-bg-primary border border-dark centeredText">Texto 10</div>
                         </div>
                     </div>
                 </div>
