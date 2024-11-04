@@ -4,5 +4,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 // Importamos el fichero de bootstrap-icons.
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons";
-// Importamos el archivo de colores.
+// Importamos el fichero de colores.
 @import "./colors";
+// Importamos el fichero de fuentes.
+@import "./tipografy";
+// Importamos el fichero de bordes.
+@import "./borders";
+// Importamos el fichero del navbar.
+@import "./navbar";

@@ -1,0 +1,11 @@
+/*
+* BORDES
+*/
+
+// Bordes por defecto.
+$border-radius: 0; // Bordes cuadrados.
+
+// Media queries para dispositivos grandes.
+@media (min-width: 992px) {
+    $border-radius: 1em; // Bordes redondeados.
+}

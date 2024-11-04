@@ -1,0 +1,40 @@
+/*
+* FUENTES
+*/
+
+// Variable fuente para títulos.
+$title_font: "New Times Roman", serif;
+// Variable fuente para contenido.
+$content_font: "Verdana", sans-serif;
+
+// Estilo de fuente para títulos.
+h1, h2, h3, h4, h5, h6 {
+    font-family: $title_font;
+}
+// Estilo de fuente para contenido.
+body > * {
+    font-family: $content_font;
+}
+
+// Media queries para dispositivos medianos.
+@media (max-width: 992px) {
+    // Estilo de fuente para títulos.
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 90%;
+    }
+    // Estilo de fuente para contenido.
+    body > * {
+        font-size: 90%;
+    }
+}
+// Media queries para dispositivos pequeños.
+@media (max-width: 600px) {
+    // Estilo de fuente para títulos.
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 80%;
+    }
+    // Estilo de fuente para contenido.
+    body > * {
+        font-size: 80%;
+    }
+}
