@@ -5,14 +5,10 @@
 // Altura fija del logo del navbar.
 .navbar-brand img {
     height: 120px;
+    width: 120px;
 }
 
 // Media query para el color de fondo del navbar.
-@media (max-width: 992px) {
-    .navbar {
-        background-color: $bg-light;
-    }
-    .navbar-nav a {
-        color: $text-dark;
-    }
+@media (min-width: 992px) {
+
 }

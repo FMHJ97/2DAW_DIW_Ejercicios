@@ -2,32 +2,23 @@
 * COLORES
 */
 
+$color1: #68A8B0;
+$color2: #DE5047;
+$color3: #444850;
+$color4: #777D79;
+$color5: #62A887;
+
+$color6: #0DC5C1;
+$color7: #F2C057;
+$color8: #f3f3f3;
+
+
 // Variables de colores
-$primary: #68A8B0;
-$secondary: #777D79;
-$success: #62A887;
-$info: #0DC5C1;
-$warning: #F2C057;
-$danger: #DE5047;
-$dark: #444850;
-$light: #f3f3f3;
-
-// Override de colores de texto
-$text-primary: $primary;
-$text-secondary: $secondary;
-$text-success: $success;
-$text-info: $info;
-$text-warning: $warning;
-$text-danger: $danger;
-$text-dark: $dark;
-$text-light: $light;
-
-// Override de colores de fondo
-$bg-primary: $primary;
-$bg-secondary: $secondary;
-$bg-success: $success;
-$bg-info: $info;
-$bg-warning: $warning;
-$bg-danger: $danger;
-$bg-dark: $dark;
-$bg-light: $light;
+$primary: $color1;
+$secondary: $color4;
+$success: $color5;
+$info: $color6;
+$warning: $color7;
+$danger: $color2;
+$dark: $color3;
+$light: $color8;
