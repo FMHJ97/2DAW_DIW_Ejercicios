@@ -2,13 +2,49 @@
 * Estilos para el navbar.
 */
 
+.navbar {
+    background-color: $dark;
+    a {
+        color: $light;
+        &:hover {
+            color: $info;
+        }
+        &:focus {
+            color: $info;
+        }
+    }
+}
+
 // Altura fija del logo del navbar.
 .navbar-brand img {
     height: 120px;
     width: 120px;
 }
 
-// Media query para el color de fondo del navbar.
-@media (min-width: 992px) {
+// En dispositivos medianos, el color de fondo y el color
+// de los enlaces del navbar tendrán mayor contraste.
+@media (max-width: 768px) {
+    .navbar {
+        background-color: darken($color: $dark, $amount: 30%);
 
+        .nav-link {
+            color: darken($color: $warning, $amount: 10%);
+            &:hover {
+                color: $info;
+            }
+            &:focus {
+                color: $info;
+            }
+        }
+
+        i {
+            color: $light;
+            font-size: 2.5rem;
+        }
+
+        form {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
 }

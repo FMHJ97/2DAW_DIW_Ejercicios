@@ -11,6 +11,10 @@ $content_font: "Verdana", sans-serif;
 h1, h2, h3, h4, h5, h6 {
     font-family: $title_font;
 }
+// Estilo de fuente para menú de navegación y dropdown.
+.navbar-nav, .dropdown-menu {
+    font-family: $title_font;
+}
 // Estilo de fuente para contenido.
 body > * {
     font-family: $content_font;
